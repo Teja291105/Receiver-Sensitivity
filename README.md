@@ -3,18 +3,11 @@
 
 ## Objective
 Determine the sensitivity of a PIN photodiode-based optical receiver by calculating the minimum received power necessary to achieve a given Q factor. Compare simulation results with those obtained analytically.
-
 ---
-
 ## Theory
 If only thermal noise is considered, the sensitivity of a PIN photodiode-based receiver is:
-
-
-
 <img width="1126" height="718" alt="image" src="https://github.com/user-attachments/assets/22298a91-302d-41e4-b254-86c9b8ec704e" />
-
 ---
-
 ## Calculations
 Receiver specifications:
 
@@ -30,9 +23,7 @@ Receiver specifications:
 > Example: If ID ends with **43**, then ST = 4.3 × 10⁻²² A²/Hz.  
 
 Using the formulas above, calculate the receiver sensitivity.
-
 ---
-
 ## Layout
 The simulation layout consists of:
 1. CW laser source  
@@ -49,18 +40,17 @@ Settings:
 Power meters are placed:
 - At the modulator output  
 - After the attenuator (input to receiver)  
-
 ---
-
 ## Simulation
 Steps:
 1. Adjust output power to **0 dBm**.  
 2. Set attenuator to **20 dB**.  
 3. Run the simulation.  
-4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.  
+4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.
+<img width="1600" height="1351" alt="WhatsApp Image 2026-05-19 at 7 15 30 PM" src="https://github.com/user-attachments/assets/2ff5050c-2556-4e22-a09c-73ed200ed982" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9cd999bf-ca60-47a8-9ede-6415359ad52a" />
 
 ---
-
 ## Report
 Your report should include:
 - Pre-lab calculations (attach handwritten work if applicable).  
@@ -69,11 +59,9 @@ Your report should include:
   - BER analyzer output  
   - Eye diagram  
 - Discussion of differences between analytical and simulation results.  
-
 ---
 ## Tabulation:
 <img width="1600" height="1533" alt="image" src="https://github.com/user-attachments/assets/9392de3d-7a96-4de3-910d-61bfc3b3fd9c" />
-
 ## OUTPUT
 <img width="1532" height="831" alt="image" src="https://github.com/user-attachments/assets/5af76fa6-e056-4cbb-8f4e-072ee35521c4" />
 ## RESULT:
