@@ -47,9 +47,6 @@ Steps:
 2. Set attenuator to **20 dB**.  
 3. Run the simulation.  
 4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.
-<img width="1600" height="1351" alt="WhatsApp Image 2026-05-19 at 7 15 30 PM" src="https://github.com/user-attachments/assets/2ff5050c-2556-4e22-a09c-73ed200ed982" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9cd999bf-ca60-47a8-9ede-6415359ad52a" />
-
 ---
 ## Report
 Your report should include:
